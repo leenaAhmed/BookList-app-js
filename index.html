@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0" />
+    <link  rel="stylesheet"  href="css/style.css" />
+    <title> ToDO app</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="page-banner">
+                  <h1 class="titel">  TODO list</h1>
+                  <p>  </p>
+                  <form id="search-Todo">
+                       <input type="text" placeholder="search for your list">
+                  </form>
+            </div>
+        </header>
+         <!--   todo list    -->
+        <section id="todo-list">
+           <h2 class="titel">Add Todo</h2> 
+           <ul>
+               <li>	
+                <span class="name">JavaScript Tutorial</span>
+                <span class="delete">delete</span>
+            </li> 
+               <li> 
+                   <span class="name"> oop JavaScript </span>
+                   <span class="delete">delete</span>
+               </li>
+           </ul>
+       </section>
+       <!-- input for add Todo on theList -->
+       <form id="add-list">
+           <input type="checkbox" name="checkbox" id="hide">
+           <label for="hide"> hide all TODO</label>
+           <input type="text" placeholder=" add a ToDO ">
+           <button>Add List</button>
+       </form>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

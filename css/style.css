@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+#container {
+    padding: 0 0 20px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+}
+
+#container header {
+    text-align: center;
+    background-color: #4c3f58;
+    padding: 10px 0;
+    color: #fff
+}
+#container header input {
+    max-width: 80%;
+    width: 80%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+#container #todo-list {
+    margin-left: 30px;
+}
+#todo-list ul {
+    list-style: none;
+    padding: 0;
+}
+#todo-list ul li {
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+.delete {
+    float: right;  
+    background: #4c3f58;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#todo-list ul li:hover {
+    border-left: 5px solid #4c3f58 ;
+
+}
+/* style  add button */
+#add-list{
+    margin: 0 auto;
+   width: 400px;
+}
+#add-list #hide {
+    width: 30px;
+}
+#add-list label {
+    line-height: 52px;
+
+}
+#add-list input {
+    display: block;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    font-size: 16px;
+    float: left;
+    clear: both;
+    padding: 10px ;
+
+}
+#add-list  button {
+    margin: 20px 0;
+    display: block;
+    width: 90px;
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px ;
+    border: 1px solid #4c3f58;
+    background-color: #4c3f58;
+    border-radius: 0 4px 4px 0;
+
+ }
